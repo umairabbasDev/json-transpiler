@@ -1,5 +1,5 @@
 {
-  "name": "generate-json-schema",
+  "name": "json-transpiler",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -13,16 +13,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/umairabbasDev/generate-json-schema.git"
+    "url": "git+https://github.com/umairabbasDev/json-transpiler.git"
   },
   "bugs": {
-    "url": "https://github.com/umairabbasDev/generate-json-schema/issues"
+    "url": "https://github.com/umairabbasDev/json-transpiler/issues"
   },
-  "homepage": "https://github.com/umairabbasDev/generate-json-schema#readme",
+  "homepage": "https://github.com/umairabbasDev/json-transpiler#readme",
   "keywords": [
     "compile",
-    "schema",
-    "json"
+    "transpiler",
+    "json",
+    "form-generator"
   ],
   "author": "umairabbasDev <umairabbas391@gmail.com>",
   "license": "MIT",
