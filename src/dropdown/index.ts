@@ -1,23 +1,26 @@
 /**
- * input definition
+ * dropdown definition
  * 
  * rules :
  * 1. key can repeat 
- * 2. value can not repeat
- * 3. value must be in small length of char
- * 4. it should not contain boolean value
+ * 2. value should be repeat
+ * 3. value can be same
+ * 4. it should not contain boolean value(optional) 
  * 
  * schema :
- * { 
+ * {
  *      label:string,
- *      value:string | number
- *      type: email| number | password | text | url 
+ *      optional:[]any
+ *      value :[
+ *              { 
+ *               key:string,
+ *               value:string | number  
+ *              }
+ *            ]
  * }
- * 
- * 
  */
 
-const input = {
+const dropdown = {
     key: "name",
     value: "arif"
 
@@ -25,7 +28,7 @@ const input = {
 
 
 
-class Input {
+class Dropdown {
     private paragraph: any
 
     constructor(paragraph: any) {
@@ -38,7 +41,7 @@ class Input {
 }
 
 
-export default Input
+export default Dropdown
 
 
 

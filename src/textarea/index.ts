@@ -1,10 +1,10 @@
 /**
- * input definition
+ * textarea definition
  * 
  * rules :
  * 1. key can repeat 
  * 2. value can not repeat
- * 3. value must be in small length of char
+ * 3. value must be in large length of char
  * 4. it should not contain boolean value
  * 
  * schema :
@@ -17,7 +17,7 @@
  * 
  */
 
-const input = {
+const textarea = {
     key: "name",
     value: "arif"
 
@@ -25,7 +25,7 @@ const input = {
 
 
 
-class Input {
+class Textarea {
     private paragraph: any
 
     constructor(paragraph: any) {
@@ -38,7 +38,7 @@ class Input {
 }
 
 
-export default Input
+export default textarea
 
 
 

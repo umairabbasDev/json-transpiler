@@ -1,23 +1,26 @@
 /**
- * input definition
+ * switch definition
  * 
  * rules :
  * 1. key can repeat 
- * 2. value can not repeat
- * 3. value must be in small length of char
- * 4. it should not contain boolean value
+ * 2. value should boolean
+ * 3. value must be ("1", "0"), ("true", "false"), ("yes","no")
  * 
- * schema :
+ * schema :[
  * { 
  *      label:string,
- *      value:string | number
- *      type: email| number | password | text | url 
- * }
- * 
+ *      value:string | number | boolean
+ *      type: ("1", "0"), ("true", "false"), ("yes","no")
+ * },
+ * {
+ *      label:string,
+ *      value:string | number | boolean
+ *      type: ("1", "0"), ("true", "false"), ("yes","no")
+ * }]
  * 
  */
 
-const input = {
+const switchSchema = {
     key: "name",
     value: "arif"
 
@@ -25,7 +28,7 @@ const input = {
 
 
 
-class Input {
+class Switch {
     private paragraph: any
 
     constructor(paragraph: any) {
@@ -38,7 +41,7 @@ class Input {
 }
 
 
-export default Input
+export default Switch
 
 
 

@@ -10,6 +10,7 @@
  * schema :
  * { 
  *      label:string,
+ *      optional:[]any
  *      value:string | number
  *      type: email| number | password | text | url 
  * }

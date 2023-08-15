@@ -1,5 +1,5 @@
 /**
- * input definition
+ * checkbox definition
  * 
  * rules :
  * 1. key can repeat 
@@ -10,6 +10,7 @@
  * schema :
  * { 
  *      label:string,
+ *      optional:[]any
  *      value:string | number
  *      type: email| number | password | text | url 
  * }
@@ -17,7 +18,7 @@
  * 
  */
 
-const input = {
+const checkbox = {
     key: "name",
     value: "arif"
 
@@ -25,7 +26,7 @@ const input = {
 
 
 
-class Input {
+class Checkbox {
     private paragraph: any
 
     constructor(paragraph: any) {
@@ -38,7 +39,7 @@ class Input {
 }
 
 
-export default Input
+export default Checkbox
 
 
 
