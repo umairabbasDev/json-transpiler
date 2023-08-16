@@ -620,9 +620,29 @@ const answer = [
 describe("validateInput", () => {
   it("should return flatten Array ", () => {
     // const result = socials.flatMap((obj) => flattenObject(obj));
-    console.log(
-      NOTIFICATION_DATA["client-triggers"]["14"]["TRUSTED_PRO_POST_CONTENT"]["channels"]
-    );
+    // const location = ["client-triggers"]["14"]["TRUSTED_PRO_POST_CONTENT"][
+    //   "channels"
+    // ];
+
+    // Accessing the data using the given location
+    const location = [
+      "client-triggers",
+      "14",
+      "TRUSTED_PRO_POST_CONTENT",
+      "channels",
+    ];
+    const channelsData = location.reduce((obj, key) => {
+      console.log("obj?.[", key, "] =", obj?.[key]);
+      return obj?.[key];
+    }, NOTIFICATION_DATA);
+
+    if (channelsData) {
+      console.log("channelsData : ", channelsData);
+      // You can now work with the channelsData object here
+    } else {
+      console.log("Invalid location or data not found.");
+    }
+    // console.log(NOTIFICATION_DATA.location);
     const result = flattenObject(NOTIFICATION_DATA);
     // const result = flattenObject(socials);
     // const result = flattenObject(data);
