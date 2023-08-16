@@ -35,7 +35,7 @@ export * from "./textarea";
 export function flattenObject(obj: any, prefix = ''): any[] {
     return Object.keys(obj).flatMap(key => {
         const currentValue = obj[key];
-        const currentLocation = prefix ? `${prefix}[${key}]` : `[${key}]`;
+        const currentLocation = prefix ? `${prefix}["${key}"]` : `["${key}"]`;
 
         if (typeof currentValue === 'object' && currentValue !== null) {
             return flattenObject(currentValue, currentLocation);

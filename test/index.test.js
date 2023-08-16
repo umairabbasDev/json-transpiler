@@ -621,14 +621,12 @@ describe("validateInput", () => {
   it("should return flatten Array ", () => {
     // const result = socials.flatMap((obj) => flattenObject(obj));
     console.log(
-      NOTIFICATION_DATA["provider-triggers"][4]["CASH_PAYMENT_CONFIRMATION"][
-        "default_values"
-      ]["is_active"]
+      NOTIFICATION_DATA["client-triggers"]["14"]["TRUSTED_PRO_POST_CONTENT"]["channels"]
     );
     const result = flattenObject(NOTIFICATION_DATA);
     // const result = flattenObject(socials);
     // const result = flattenObject(data);
-    console.log("total keys: ", result);
+    // console.log("total keys: ", result);
     expect(result.length).toBe(answer.length);
   });
 
