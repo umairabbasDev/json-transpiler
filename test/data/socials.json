@@ -1,0 +1,13 @@
+{
+  "socials": [
+    {"name": "facebook", "type": "http", "prefix": "https://www.facebook.com/"},
+    {"name": "twitter", "type": "http", "prefix": "https://www.twitter.com/"},
+    {"name": "instagram", "type": "http", "prefix": "https://www.instagram.com/"},
+    {"name": "linkedin", "type": "http", "prefix": "https://www.linkedin.com/"},
+    {"name": "tiktok", "type": "http", "prefix": "https://www.tiktok.com/"},
+    {"name": "messenger", "type": "phone", "prefix": "https://www.messenger.com/"},
+    {"name": "whatsapp", "type": "phone", "prefix": "https://www.whatsapp.com/"},
+    {"name": "pinterest", "type": "http", "prefix": "https://www.pinterest.com/"},
+    {"name": "snapchat", "type": "http", "prefix": "https://www.snapchat.com/"}
+  ]
+}

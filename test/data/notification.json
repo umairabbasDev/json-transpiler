@@ -1,0 +1,435 @@
+{
+  "client-triggers": [
+    {
+      "PROFILE_COMPLETED": {
+        "delay": "immediately",
+        "channels": "KC",
+        "message": "Welcome to Kazzah where your trusted pros are and 21st century life gets easier",
+        "default_values": {
+          "bell_icons": "no",
+          "notification_center": "yes",
+          "repeat_cycle_if_completed": "none",
+          "is_active": "no"
+        }
+      }
+    },
+    {
+      "PROFILE_IN_COMPLETED": {
+        "delay": "90 min",
+        "channels": "sms",
+        "message": "Give your signup a try again.  We know your going to enjoy the usefulness of the Kazzah platform and connecting with your close network of Friends and Pros",
+        "default_values": {
+          "bell_icons": "no",
+          "notification_center": "yes",
+          "repeat_cycle_if_completed": "24H(2)",
+          "is_active": "yes"
+        }
+      }
+    },
+    {
+      "PRO_REQUEST": {
+        "delay": "immediately",
+        "channels": "sms,KC",
+        "message": "Hoping you had a great experience.  Please take a moment to authorize payment to your trusted pro - {{name}}.",
+        "default_values": {
+          "bell_icons": "yes",
+          "notification_center": "yes",
+          "repeat_cycle_if_completed": "24H(2)",
+          "is_active": "no"
+        }
+      }
+    },
+    {
+      "KZH_KNOW_APPOINTMENT_TIME_IS_120_MIN": {
+        "delay": "4 hours",
+        "channels": "sms,KC",
+        "message": "Hoping you had a great experience.  Please take a moment to authorize payment to your trusted pro.",
+        "default_values": {
+          "bell_icons": "yes",
+          "notification_center": "yes",
+          "repeat_cycle_if_completed": "none",
+          "is_active": "no"
+        }
+      }
+    },
+    {
+      "TRANSACTION_COMPLETE": {
+        "delay": "immediately",
+        "channels": "KC",
+        "message": "Your payment to trusted pro {{name}} has been completed.",
+        "default_values": {
+          "bell_icons": "no",
+          "notification_center": "no",
+          "repeat_cycle_if_completed": "none",
+          "is_active": "no"
+        }
+      }
+    },
+    {
+      "RESERVATION_FEE_TRANSACTION_COMPLETE": {
+        "delay": "immediately",
+        "channels": "KC",
+        "message": "Your payment to trusted pro {{name}} has been completed.",
+        "default_values": {
+          "bell_icons": "no",
+          "notification_center": "no",
+          "repeat_cycle_if_completed": "none",
+          "is_active": "no"
+        }
+      }
+    },
+    {
+      "PRO_CONFIRM_APPOINTMENT": {
+        "delay": "immediately",
+        "channels": "sms,KC",
+        "message": "Your upcoming appointment with pro {{name}} on {{date}} is confirmed.",
+        "default_values": {
+          "bell_icons": "yes",
+          "notification_center": "yes",
+          "repeat_cycle_if_completed": "none",
+          "is_active": "no"
+        }
+      }
+    },
+    {
+      "PRO_DECLINE_APPOINTMENT": {
+        "delay": "immediately",
+        "channels": "sms,KC",
+        "message": "Your upcoming appointment with {{name}} has been canceled due to a conflict. Apologies for the change, please re-enter my schedule to rebook for another date.",
+        "default_values": {
+          "bell_icons": "yes",
+          "notification_center": "yes",
+          "repeat_cycle_if_completed": "none",
+          "is_active": "no"
+        }
+      }
+    },
+    {
+      "PRO_SEND_CHANGE_REQUEST": {
+        "delay": "immediately",
+        "channels": "sms,KC",
+        "message": "Your Pro {{name}} has requested a switch with your next upcoming appointment. Please check your KZH messages to accept",
+        "default_values": {
+          "bell_icons": "yes",
+          "notification_center": "yes",
+          "repeat_cycle_if_completed": "none",
+          "is_active": "no"
+        }
+      }
+    },
+    {
+      "REMINDER_OF_UPCOMING_APPOINTMENTS_WEEK_SUMMARY": {
+        "delay": "Sunday night",
+        "channels": "sms",
+        "message": "You have {{appointments}} appointments coming up this week.   Check your KZH dashboard to see whats coming up next this week. {{link}}",
+        "default_values": {
+          "bell_icons": "no",
+          "notification_center": "yes",
+          "repeat_cycle_if_completed": "none",
+          "is_active": "no"
+        }
+      }
+    },
+    {
+      "WHEN_30_DAYS_FROM_LAST_BOOKING_AND_NO_REBOOK_RECORDED": {
+        "delay": "30 days from last appointment",
+        "channels": "KC  ",
+        "message": "You don\u2019t have a next appointment scheduled withyour regular pros.{{link}} to get back on the calendar.",
+        "default_values": {
+          "bell_icons": "no",
+          "notification_center": "no",
+          "repeat_cycle_if_completed": "none",
+          "is_active": "no"
+        }
+      }
+    },
+    {
+      "PUSHED_FROM_PROVIDER": {
+        "delay": "immediately",
+        "channels": "KC",
+        "message": "Your trusted Pro would like to get you back on the calendar for another appointment. {{link}} to see their schedule?",
+        "default_values": {
+          "bell_icons": "yes",
+          "notification_center": "yes",
+          "repeat_cycle_if_completed": "none",
+          "is_active": "no"
+        }
+      }
+    },
+    {
+      "COMPRESSED_CONTENT_REACHES_SET_LIMIT": {
+        "delay": "immediately",
+        "channels": "KC",
+        "message": "You have amazing content but we are running out of room.   For {{price}} month we can triple your content album.",
+        "default_values": {
+          "bell_icons": "yes",
+          "notification_center": "yes",
+          "repeat_cycle_if_completed": "none",
+          "is_active": "no"
+        }
+      }
+    },
+    {
+      "TRUSTED_MEMBER_CONNECTION_POSTS_CONTENT": {
+        "delay": "immediately",
+        "channels": "KC",
+        "message": "{{member}} Shared image from last appointment with {{provider}} {{link}}",
+        "default_values": {
+          "bell_icons": "yes",
+          "notification_center": "yes",
+          "repeat_cycle_if_completed": "none",
+          "is_active": "no"
+        }
+      }
+    },
+    {
+      "TRUSTED_PRO_POST_CONTENT": {
+        "delay": "immediately",
+        "channels": "KC",
+        "message": "{{provider}} Shared image from lastest appointment with (PRO) {{link}}",
+        "default_values": {
+          "bell_icons": "yes",
+          "notification_center": "yes",
+          "repeat_cycle_if_completed": "none",
+          "is_active": "no"
+        }
+      }
+    },
+    {
+      "PRO_SEND_INVITES_MEMBER_NOT_SIGNED_UP": {
+        "delay": "immediately",
+        "channels": "sms",
+        "message": "Your trusted pro {{provider}} has invited you into the new exciting platform Kazzah. Join the movement to see a new way to find, book, pay, and manage your 21st century lifestyle.",
+        "default_values": {
+          "bell_icons": "yes",
+          "notification_center": "yes",
+          "repeat_cycle_if_completed": "24H(2)",
+          "is_active": "no"
+        }
+      }
+    },
+    {
+      "PRO_SEND_INVITES_MEMBER_SIGNED_UP": {
+        "delay": "immediately",
+        "channels": "KC",
+        "message": "Your trusted pro {{provider}} would like to join your dashboard.",
+        "default_values": {
+          "bell_icons": "yes",
+          "notification_center": "yes",
+          "repeat_cycle_if_completed": "24H(2)",
+          "is_active": "no"
+        }
+      }
+    },
+    {
+      "MEMBER_INVITES_FRIEND_NOT_SIGNED_UP": {
+        "delay": "immediately",
+        "channels": "sms",
+        "message": "Your friend {{member}} invited you into the Kazzah Network.  {{link}} to join and discover the power of Kazzah.",
+        "default_values": {
+          "bell_icons": "yes",
+          "notification_center": "yes",
+          "repeat_cycle_if_completed": "24H(2)",
+          "is_active": "no"
+        }
+      }
+    },
+    {
+      "MEMBER_INVITES_FRIEND_MEMBER_SIGNED_UP": {
+        "delay": "immediately",
+        "channels": "KC",
+        "message": "Your friend {{member}} invited you into the Kazzah Network. {{link}}",
+        "default_values": {
+          "bell_icons": "yes",
+          "notification_center": "yes",
+          "repeat_cycle_if_completed": "24H(1)",
+          "is_active": "no"
+        }
+      }
+    },
+    {
+      "MEMBER_SHARES_PRO_WITH_MEMBER_NOT_SIGNED_UP": {
+        "delay": "immediately",
+        "channels": "sms",
+        "message": "Your Friend {{member}} shared their pro with you. {{link}} to join and discover the full power of kazzah",
+        "default_values": {
+          "bell_icons": "yes",
+          "notification_center": "yes",
+          "repeat_cycle_if_completed": "no",
+          "is_active": "no"
+        }
+      }
+    },
+    {
+      "MEMBER_SHARES_PRO_WITH_MEMBER_SIGNED_UP": {
+        "delay": "immediately",
+        "channels": "KC",
+        "message": "Your Friend {{member}} shared their pro with you.",
+        "default_values": {
+          "bell_icons": "yes",
+          "notification_center": "yes",
+          "repeat_cycle_if_completed": "no",
+          "is_active": "no"
+        }
+      }
+    },
+    {
+      "MEMBER_SHARES_CHANNEL_WITH_MEMBER_NOT_SIGNED_UP": {
+        "delay": "immediately",
+        "channels": "sms",
+        "message": "Your Friend {{member}} shared their Channel with you. {{link}} to join and discover the full power of kazzah",
+        "default_values": {
+          "bell_icons": "yes",
+          "notification_center": "yes",
+          "repeat_cycle_if_completed": "no",
+          "is_active": "no"
+        }
+      }
+    },
+    {
+      "MEMBER_SHARES_CHANNEL_WITH_MEMBER_SIGNED_UP": {
+        "delay": "immediately",
+        "channels": "KC",
+        "message": "Your Friend {{member}} shared their Channel with you.",
+        "default_values": {
+          "bell_icons": "yes",
+          "notification_center": "yes",
+          "repeat_cycle_if_completed": "no",
+          "is_active": "no"
+        }
+      }
+    },
+    {
+      "PRO_PUSHES_MESSAGE_PRODUCT": {
+        "delay": "immediately",
+        "channels": "KC",
+        "message": "Your trusted pro is offering a special for clients only. Check out her latest promo {{link}}",
+        "default_values": {
+          "bell_icons": "yes",
+          "notification_center": "yes",
+          "repeat_cycle_if_completed": "no",
+          "is_active": "no"
+        }
+      }
+    },
+    {
+      "PRO_PUSHES_MESSAGE_SERVICE": {
+        "delay": "immediately",
+        "channels": "KC",
+        "message": "Your trusted pro is offering a special for clients only. Check out her latest promo {{link}}",
+        "default_values": {
+          "bell_icons": "yes",
+          "notification_center": "yes",
+          "repeat_cycle_if_completed": "no",
+          "is_active": "no"
+        }
+      }
+    },
+    {
+      "PAYMENT_REMINDER": {
+        "delay": "immediately",
+        "channels": "KC",
+        "message": "Please complete payment to {{name}} for your appointment on {{date}}. ",
+        "default_values": {
+          "bell_icons": "yes",
+          "notification_center": "yes",
+          "repeat_cycle_if_completed": "no",
+          "is_active": "no"
+        }
+      }
+    },
+    {
+      "PROVIDER_SEND_REBOOK_REMINDER": {
+        "delay": "immediately",
+        "channels": "KC",
+        "message": "{{name}} has rebooked you for next appointment on {{date}}",
+        "default_values": {
+          "bell_icons": "no",
+          "notification_center": "yes",
+          "repeat_cycle_if_completed": "none",
+          "is_active": "no"
+        }
+      }
+    },
+    {
+      "APPOINTMENT_TIME_COMPLETE": {
+        "delay": "immediately",
+        "channels": "KC",
+        "message": "{{pro_name}} appointment with {{member_name}} is complete now, please check out and take photos",
+        "default_values": {
+          "bell_icons": "no",
+          "notification_center": "yes",
+          "repeat_cycle_if_completed": "none",
+          "is_active": "no"
+        }
+      }
+    }
+  ],
+  "provider-triggers": [
+    {
+      "APPOINTMENT_REQUEST_FROM_MEMBER": {
+        "delay": "immediately",
+        "channels": "KC",
+        "message": "{{name}} has requested an appointment on {{date}}, please review and confirm",
+        "default_values": {
+          "bell_icons": "no",
+          "notification_center": "yes",
+          "repeat_cycle_if_completed": "none",
+          "is_active": "no"
+        }
+      }
+    },
+    {
+      "MEMBER_ADD_PRO_AS_CONNECTION": {
+        "delay": "immediately",
+        "channels": "KC",
+        "message": "{{name}} has added you to his Kazzah connections",
+        "default_values": {
+          "bell_icons": "no",
+          "notification_center": "yes",
+          "repeat_cycle_if_completed": "none",
+          "is_active": "no"
+        }
+      }
+    },
+    {
+      "MEMBER_SENT_A_CHAT_MESSAGE_TO_PRO": {
+        "delay": "immediately",
+        "channels": "KC",
+        "message": "You have a new message from {{name}}",
+        "default_values": {
+          "bell_icons": "no",
+          "notification_center": "yes",
+          "repeat_cycle_if_completed": "none",
+          "is_active": "no"
+        }
+      }
+    },
+    {
+      "APPOINTMENT_TIME_COMPLETE": {
+        "delay": "immediately",
+        "channels": "KC",
+        "message": "{{pro_name}} appointment with {{member_name}} is complete now, please check out and take photos",
+        "default_values": {
+          "bell_icons": "no",
+          "notification_center": "yes",
+          "repeat_cycle_if_completed": "none",
+          "is_active": "no"
+        }
+      }
+    },
+    {
+      "CASH_PAYMENT_CONFIRMATION": {
+        "delay": "immediately",
+        "channels": "KC",
+        "message": "{{member_name}} has paid in cash for appointment on {{date}}, Please receive payment in cash and confirm",
+        "default_values": {
+          "bell_icons": "no",
+          "notification_center": "yes",
+          "repeat_cycle_if_completed": "none",
+          "is_active": "no"
+        }
+      }
+    }
+  ]
+}
