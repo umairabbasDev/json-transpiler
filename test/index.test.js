@@ -10,10 +10,10 @@ describe("validateInput", () => {
     // const channelsData = location.reduce((obj, key) => {console.log("obj?.[", key, "] =", obj?.[key]);return obj?.[key];}, NOTIFICATION_DATA);
 
     const result = transFormer.flattenObject(NOTIFICATION_DATA);
-    console.log("total keys: ", JSON.stringify(result));
+    console.log("total keys: ", result.length);
     // const result = flattenObject(socials);
     const filteredData = filterDataFromInput(result);
-    // console.log("filteredData : ", filteredData);
+    console.log("filteredData : ", filteredData.length);
     expect(result.length).toBe(result.length);
   });
 
@@ -32,10 +32,11 @@ describe("validateInput", () => {
 
     // Write your assertions here based on the expected filtered data
     expect(filteredData).toEqual([
-      { key: "k1", value: "abc", location: "loc1" },
-      { key: "k2", value: "def", location: "loc2" },
-      { key: "k4", value: "ghi", location: "loc4" },
-      { key: "k6", value: "xyzxyz", location: "loc6" },
+      { key: 'k1', value: 'abc', location: 'loc1' },
+      { key: 'k2', value: 'def', location: 'loc2' },
+      { key: 'k3', value: 'abc', location: 'loc3' },
+      { key: 'k4', value: 'ghi', location: 'loc4' },
+      { key: 'k6', value: 'xyzxyz', location: 'loc6' }
     ]);
   });
 });

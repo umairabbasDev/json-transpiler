@@ -3,7 +3,7 @@
  * 
  * rules :
  * 1. key can repeat 
- * 2. value can not repeat
+ * 2. remove all key:value pairs whose key is re  
  * 3. value must be in small length of char
  * 4. it should not contain boolean value
  * 
@@ -39,9 +39,9 @@ export function filterDataFromInput(data: DataObject[]): DataObject[] {
         }
 
         // Rule 2: Check for duplicate values
-        if (seenValues.has(value)) {
-            continue;
-        }
+        // if (seenValues.has(value)) {
+        //     continue;
+        // }
 
         // Rule 3: Check value length
         if (value.length > 50) {
