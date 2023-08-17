@@ -9,41 +9,77 @@
  *  
  */
 
+import { validateInput } from "./input";
+
 
 /**
- * 
- * 
- * 
  *  create a typescript function that  check 
  *  nested json data for those  
  *  keys which repeating and their value are not repeating and also not array or object 
  *  and return as it is in original nested structured  
  *  it should check key and value on every level
- * 
  */
 
-export { validateInput } from "./input";
-export * from "./checkbox";
-export * from "./dropdown";
-export * from "./switch";
-export * from "./textarea";
+export { validateInput, filterDataFromInput } from "./input";
+// export * from "./checkbox";
+// export * from "./dropdown";
+// export * from "./switch";
+// export * from "./textarea";
+
+class TranspileFarm {
+    private currentObj: any
+    private flatObj: any
+    private finalForm: any
+
+    constructor(obj: any) {
+        this.currentObj = obj
+        this.flatObj = this.flattenObject(this.currentObj)
+    }
+
+
+    transForm() {
+        validateInput()
 
 
 
+    }
+
+    editObj(location: string, value: any) {
+        const newObj = this.currentObj
+        return newObj
+    }
 
 
-export function flattenObject(obj: any, prefix = ''): any[] {
-    return Object.keys(obj).flatMap(key => {
-        const currentValue = obj[key];
-        const currentLocation = prefix ? `${prefix}["${key}"]` : `["${key}"]`;
-
-        if (typeof currentValue === 'object' && currentValue !== null) {
-            return flattenObject(currentValue, currentLocation);
-        } else {
-            return { key: key, value: currentValue, location: currentLocation };
+    flattenObject(obj: any, prefix = ''): any[] {
+        if (obj === null || obj === undefined) {
+            return [];
         }
-    });
+
+
+        return Object.keys(obj).flatMap(key => {
+            const currentValue = obj[key];
+            const currentLocation = prefix ? `${prefix}["${key}"]` : `["${key}"]`;
+            if (typeof currentValue === 'object' && currentValue !== null) {
+                return this.flattenObject(currentValue, currentLocation);
+            } else {
+                return { key: key, value: currentValue, location: currentLocation };
+            }
+        });
+    }
+
+
+    public getFlatList() {
+        console.log(this.flatObj);
+        return this.flatObj
+    }
 }
+
+
+export { TranspileFarm }
+
+
+
+
 
 /**
  *

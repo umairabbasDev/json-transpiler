@@ -18,54 +18,52 @@
  * 
  */
 
-const input = {
-    key: "name",
-    value: "arif"
 
+
+interface DataObject {
+    key: string;
+    value: string;
+    location: string;
 }
 
+export function filterDataFromInput(data: DataObject[]): DataObject[] {
+    const seenValues: Set<string> = new Set();
+    const result: DataObject[] = [];
 
+    for (const obj of data) {
+        const { key, value, location } = obj;
 
-class Input {
-    private paragraph: any
+        // Rule 4: Check for boolean value
+        if (typeof value === 'boolean') {
+            continue;
+        }
 
-    constructor(paragraph: any) {
-        this.paragraph = paragraph
+        // Rule 2: Check for duplicate values
+        if (seenValues.has(value)) {
+            continue;
+        }
+
+        // Rule 3: Check value length
+        if (value.length > 50) {
+            continue;
+        }
+
+        // If all rules are satisfied, add the object to the result array
+        result.push(obj);
+        seenValues.add(value);
     }
 
-    
-    
+    return result;
 }
 
-
-export function validateInput(data: Record<string, any>): boolean {
-    const seenValues = new Set<string>();
-
-    for (const key in data) {
-        if (typeof data[key] === "boolean") {
-            return false; // Rule 4: Contains boolean value
-        }
-
-        const valueStr = String(data[key]);
-
-        if (seenValues.has(valueStr)) {
-            return false; // Rule 2: Value repeated
-        }
-
-        if (valueStr.length > 10) {
-            return false; // Rule 3: Value length
-        }
-
-        seenValues.add(valueStr);
-    }
-
-    return true;
+export function validateInput() {
+    return true
 }
 
 
 
 
-export default Input
+
 
 
 // interface Schema {

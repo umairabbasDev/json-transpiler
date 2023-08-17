@@ -1,0 +1,1157 @@
+[
+  {
+    "key": "delay",
+    "value": "immediately",
+    "location": "[\"client-triggers\"][\"0\"][\"PROFILE_COMPLETED\"][\"delay\"]"
+  },
+  {
+    "key": "channels",
+    "value": "KC",
+    "location": "[\"client-triggers\"][\"0\"][\"PROFILE_COMPLETED\"][\"channels\"]"
+  },
+  {
+    "key": "message",
+    "value": "Welcome to Kazzah where your trusted pros are and 21st century life gets easier",
+    "location": "[\"client-triggers\"][\"0\"][\"PROFILE_COMPLETED\"][\"message\"]"
+  },
+  {
+    "key": "bell_icons",
+    "value": "no",
+    "location": "[\"client-triggers\"][\"0\"][\"PROFILE_COMPLETED\"][\"default_values\"][\"bell_icons\"]"
+  },
+  {
+    "key": "notification_center",
+    "value": "yes",
+    "location": "[\"client-triggers\"][\"0\"][\"PROFILE_COMPLETED\"][\"default_values\"][\"notification_center\"]"
+  },
+  {
+    "key": "repeat_cycle_if_completed",
+    "value": "none",
+    "location": "[\"client-triggers\"][\"0\"][\"PROFILE_COMPLETED\"][\"default_values\"][\"repeat_cycle_if_completed\"]"
+  },
+  {
+    "key": "is_active",
+    "value": "no",
+    "location": "[\"client-triggers\"][\"0\"][\"PROFILE_COMPLETED\"][\"default_values\"][\"is_active\"]"
+  },
+  {
+    "key": "delay",
+    "value": "90 min",
+    "location": "[\"client-triggers\"][\"1\"][\"PROFILE_IN_COMPLETED\"][\"delay\"]"
+  },
+  {
+    "key": "channels",
+    "value": "sms",
+    "location": "[\"client-triggers\"][\"1\"][\"PROFILE_IN_COMPLETED\"][\"channels\"]"
+  },
+  {
+    "key": "message",
+    "value": "Give your signup a try again.  We know your going to enjoy the usefulness of the Kazzah platform and connecting with your close network of Friends and Pros",
+    "location": "[\"client-triggers\"][\"1\"][\"PROFILE_IN_COMPLETED\"][\"message\"]"
+  },
+  {
+    "key": "bell_icons",
+    "value": "no",
+    "location": "[\"client-triggers\"][\"1\"][\"PROFILE_IN_COMPLETED\"][\"default_values\"][\"bell_icons\"]"
+  },
+  {
+    "key": "notification_center",
+    "value": "yes",
+    "location": "[\"client-triggers\"][\"1\"][\"PROFILE_IN_COMPLETED\"][\"default_values\"][\"notification_center\"]"
+  },
+  {
+    "key": "repeat_cycle_if_completed",
+    "value": "24H(2)",
+    "location": "[\"client-triggers\"][\"1\"][\"PROFILE_IN_COMPLETED\"][\"default_values\"][\"repeat_cycle_if_completed\"]"
+  },
+  {
+    "key": "is_active",
+    "value": "yes",
+    "location": "[\"client-triggers\"][\"1\"][\"PROFILE_IN_COMPLETED\"][\"default_values\"][\"is_active\"]"
+  },
+  {
+    "key": "delay",
+    "value": "immediately",
+    "location": "[\"client-triggers\"][\"2\"][\"PRO_REQUEST\"][\"delay\"]"
+  },
+  {
+    "key": "channels",
+    "value": "sms,KC",
+    "location": "[\"client-triggers\"][\"2\"][\"PRO_REQUEST\"][\"channels\"]"
+  },
+  {
+    "key": "message",
+    "value": "Hoping you had a great experience.  Please take a moment to authorize payment to your trusted pro - {{name}}.",
+    "location": "[\"client-triggers\"][\"2\"][\"PRO_REQUEST\"][\"message\"]"
+  },
+  {
+    "key": "bell_icons",
+    "value": "yes",
+    "location": "[\"client-triggers\"][\"2\"][\"PRO_REQUEST\"][\"default_values\"][\"bell_icons\"]"
+  },
+  {
+    "key": "notification_center",
+    "value": "yes",
+    "location": "[\"client-triggers\"][\"2\"][\"PRO_REQUEST\"][\"default_values\"][\"notification_center\"]"
+  },
+  {
+    "key": "repeat_cycle_if_completed",
+    "value": "24H(2)",
+    "location": "[\"client-triggers\"][\"2\"][\"PRO_REQUEST\"][\"default_values\"][\"repeat_cycle_if_completed\"]"
+  },
+  {
+    "key": "is_active",
+    "value": "no",
+    "location": "[\"client-triggers\"][\"2\"][\"PRO_REQUEST\"][\"default_values\"][\"is_active\"]"
+  },
+  {
+    "key": "delay",
+    "value": "4 hours",
+    "location": "[\"client-triggers\"][\"3\"][\"KZH_KNOW_APPOINTMENT_TIME_IS_120_MIN\"][\"delay\"]"
+  },
+  {
+    "key": "channels",
+    "value": "sms,KC",
+    "location": "[\"client-triggers\"][\"3\"][\"KZH_KNOW_APPOINTMENT_TIME_IS_120_MIN\"][\"channels\"]"
+  },
+  {
+    "key": "message",
+    "value": "Hoping you had a great experience.  Please take a moment to authorize payment to your trusted pro.",
+    "location": "[\"client-triggers\"][\"3\"][\"KZH_KNOW_APPOINTMENT_TIME_IS_120_MIN\"][\"message\"]"
+  },
+  {
+    "key": "bell_icons",
+    "value": "yes",
+    "location": "[\"client-triggers\"][\"3\"][\"KZH_KNOW_APPOINTMENT_TIME_IS_120_MIN\"][\"default_values\"][\"bell_icons\"]"
+  },
+  {
+    "key": "notification_center",
+    "value": "yes",
+    "location": "[\"client-triggers\"][\"3\"][\"KZH_KNOW_APPOINTMENT_TIME_IS_120_MIN\"][\"default_values\"][\"notification_center\"]"
+  },
+  {
+    "key": "repeat_cycle_if_completed",
+    "value": "none",
+    "location": "[\"client-triggers\"][\"3\"][\"KZH_KNOW_APPOINTMENT_TIME_IS_120_MIN\"][\"default_values\"][\"repeat_cycle_if_completed\"]"
+  },
+  {
+    "key": "is_active",
+    "value": "no",
+    "location": "[\"client-triggers\"][\"3\"][\"KZH_KNOW_APPOINTMENT_TIME_IS_120_MIN\"][\"default_values\"][\"is_active\"]"
+  },
+  {
+    "key": "delay",
+    "value": "immediately",
+    "location": "[\"client-triggers\"][\"4\"][\"TRANSACTION_COMPLETE\"][\"delay\"]"
+  },
+  {
+    "key": "channels",
+    "value": "KC",
+    "location": "[\"client-triggers\"][\"4\"][\"TRANSACTION_COMPLETE\"][\"channels\"]"
+  },
+  {
+    "key": "message",
+    "value": "Your payment to trusted pro {{name}} has been completed.",
+    "location": "[\"client-triggers\"][\"4\"][\"TRANSACTION_COMPLETE\"][\"message\"]"
+  },
+  {
+    "key": "bell_icons",
+    "value": "no",
+    "location": "[\"client-triggers\"][\"4\"][\"TRANSACTION_COMPLETE\"][\"default_values\"][\"bell_icons\"]"
+  },
+  {
+    "key": "notification_center",
+    "value": "no",
+    "location": "[\"client-triggers\"][\"4\"][\"TRANSACTION_COMPLETE\"][\"default_values\"][\"notification_center\"]"
+  },
+  {
+    "key": "repeat_cycle_if_completed",
+    "value": "none",
+    "location": "[\"client-triggers\"][\"4\"][\"TRANSACTION_COMPLETE\"][\"default_values\"][\"repeat_cycle_if_completed\"]"
+  },
+  {
+    "key": "is_active",
+    "value": "no",
+    "location": "[\"client-triggers\"][\"4\"][\"TRANSACTION_COMPLETE\"][\"default_values\"][\"is_active\"]"
+  },
+  {
+    "key": "delay",
+    "value": "immediately",
+    "location": "[\"client-triggers\"][\"5\"][\"RESERVATION_FEE_TRANSACTION_COMPLETE\"][\"delay\"]"
+  },
+  {
+    "key": "channels",
+    "value": "KC",
+    "location": "[\"client-triggers\"][\"5\"][\"RESERVATION_FEE_TRANSACTION_COMPLETE\"][\"channels\"]"
+  },
+  {
+    "key": "message",
+    "value": "Your payment to trusted pro {{name}} has been completed.",
+    "location": "[\"client-triggers\"][\"5\"][\"RESERVATION_FEE_TRANSACTION_COMPLETE\"][\"message\"]"
+  },
+  {
+    "key": "bell_icons",
+    "value": "no",
+    "location": "[\"client-triggers\"][\"5\"][\"RESERVATION_FEE_TRANSACTION_COMPLETE\"][\"default_values\"][\"bell_icons\"]"
+  },
+  {
+    "key": "notification_center",
+    "value": "no",
+    "location": "[\"client-triggers\"][\"5\"][\"RESERVATION_FEE_TRANSACTION_COMPLETE\"][\"default_values\"][\"notification_center\"]"
+  },
+  {
+    "key": "repeat_cycle_if_completed",
+    "value": "none",
+    "location": "[\"client-triggers\"][\"5\"][\"RESERVATION_FEE_TRANSACTION_COMPLETE\"][\"default_values\"][\"repeat_cycle_if_completed\"]"
+  },
+  {
+    "key": "is_active",
+    "value": "no",
+    "location": "[\"client-triggers\"][\"5\"][\"RESERVATION_FEE_TRANSACTION_COMPLETE\"][\"default_values\"][\"is_active\"]"
+  },
+  {
+    "key": "delay",
+    "value": "immediately",
+    "location": "[\"client-triggers\"][\"6\"][\"PRO_CONFIRM_APPOINTMENT\"][\"delay\"]"
+  },
+  {
+    "key": "channels",
+    "value": "sms,KC",
+    "location": "[\"client-triggers\"][\"6\"][\"PRO_CONFIRM_APPOINTMENT\"][\"channels\"]"
+  },
+  {
+    "key": "message",
+    "value": "Your upcoming appointment with pro {{name}} on {{date}} is confirmed.",
+    "location": "[\"client-triggers\"][\"6\"][\"PRO_CONFIRM_APPOINTMENT\"][\"message\"]"
+  },
+  {
+    "key": "bell_icons",
+    "value": "yes",
+    "location": "[\"client-triggers\"][\"6\"][\"PRO_CONFIRM_APPOINTMENT\"][\"default_values\"][\"bell_icons\"]"
+  },
+  {
+    "key": "notification_center",
+    "value": "yes",
+    "location": "[\"client-triggers\"][\"6\"][\"PRO_CONFIRM_APPOINTMENT\"][\"default_values\"][\"notification_center\"]"
+  },
+  {
+    "key": "repeat_cycle_if_completed",
+    "value": "none",
+    "location": "[\"client-triggers\"][\"6\"][\"PRO_CONFIRM_APPOINTMENT\"][\"default_values\"][\"repeat_cycle_if_completed\"]"
+  },
+  {
+    "key": "is_active",
+    "value": "no",
+    "location": "[\"client-triggers\"][\"6\"][\"PRO_CONFIRM_APPOINTMENT\"][\"default_values\"][\"is_active\"]"
+  },
+  {
+    "key": "delay",
+    "value": "immediately",
+    "location": "[\"client-triggers\"][\"7\"][\"PRO_DECLINE_APPOINTMENT\"][\"delay\"]"
+  },
+  {
+    "key": "channels",
+    "value": "sms,KC",
+    "location": "[\"client-triggers\"][\"7\"][\"PRO_DECLINE_APPOINTMENT\"][\"channels\"]"
+  },
+  {
+    "key": "message",
+    "value": "Your upcoming appointment with {{name}} has been canceled due to a conflict. Apologies for the change, please re-enter my schedule to rebook for another date.",
+    "location": "[\"client-triggers\"][\"7\"][\"PRO_DECLINE_APPOINTMENT\"][\"message\"]"
+  },
+  {
+    "key": "bell_icons",
+    "value": "yes",
+    "location": "[\"client-triggers\"][\"7\"][\"PRO_DECLINE_APPOINTMENT\"][\"default_values\"][\"bell_icons\"]"
+  },
+  {
+    "key": "notification_center",
+    "value": "yes",
+    "location": "[\"client-triggers\"][\"7\"][\"PRO_DECLINE_APPOINTMENT\"][\"default_values\"][\"notification_center\"]"
+  },
+  {
+    "key": "repeat_cycle_if_completed",
+    "value": "none",
+    "location": "[\"client-triggers\"][\"7\"][\"PRO_DECLINE_APPOINTMENT\"][\"default_values\"][\"repeat_cycle_if_completed\"]"
+  },
+  {
+    "key": "is_active",
+    "value": "no",
+    "location": "[\"client-triggers\"][\"7\"][\"PRO_DECLINE_APPOINTMENT\"][\"default_values\"][\"is_active\"]"
+  },
+  {
+    "key": "delay",
+    "value": "immediately",
+    "location": "[\"client-triggers\"][\"8\"][\"PRO_SEND_CHANGE_REQUEST\"][\"delay\"]"
+  },
+  {
+    "key": "channels",
+    "value": "sms,KC",
+    "location": "[\"client-triggers\"][\"8\"][\"PRO_SEND_CHANGE_REQUEST\"][\"channels\"]"
+  },
+  {
+    "key": "message",
+    "value": "Your Pro {{name}} has requested a switch with your next upcoming appointment. Please check your KZH messages to accept",
+    "location": "[\"client-triggers\"][\"8\"][\"PRO_SEND_CHANGE_REQUEST\"][\"message\"]"
+  },
+  {
+    "key": "bell_icons",
+    "value": "yes",
+    "location": "[\"client-triggers\"][\"8\"][\"PRO_SEND_CHANGE_REQUEST\"][\"default_values\"][\"bell_icons\"]"
+  },
+  {
+    "key": "notification_center",
+    "value": "yes",
+    "location": "[\"client-triggers\"][\"8\"][\"PRO_SEND_CHANGE_REQUEST\"][\"default_values\"][\"notification_center\"]"
+  },
+  {
+    "key": "repeat_cycle_if_completed",
+    "value": "none",
+    "location": "[\"client-triggers\"][\"8\"][\"PRO_SEND_CHANGE_REQUEST\"][\"default_values\"][\"repeat_cycle_if_completed\"]"
+  },
+  {
+    "key": "is_active",
+    "value": "no",
+    "location": "[\"client-triggers\"][\"8\"][\"PRO_SEND_CHANGE_REQUEST\"][\"default_values\"][\"is_active\"]"
+  },
+  {
+    "key": "delay",
+    "value": "Sunday night",
+    "location": "[\"client-triggers\"][\"9\"][\"REMINDER_OF_UPCOMING_APPOINTMENTS_WEEK_SUMMARY\"][\"delay\"]"
+  },
+  {
+    "key": "channels",
+    "value": "sms",
+    "location": "[\"client-triggers\"][\"9\"][\"REMINDER_OF_UPCOMING_APPOINTMENTS_WEEK_SUMMARY\"][\"channels\"]"
+  },
+  {
+    "key": "message",
+    "value": "You have {{appointments}} appointments coming up this week.   Check your KZH dashboard to see whats coming up next this week. {{link}}",
+    "location": "[\"client-triggers\"][\"9\"][\"REMINDER_OF_UPCOMING_APPOINTMENTS_WEEK_SUMMARY\"][\"message\"]"
+  },
+  {
+    "key": "bell_icons",
+    "value": "no",
+    "location": "[\"client-triggers\"][\"9\"][\"REMINDER_OF_UPCOMING_APPOINTMENTS_WEEK_SUMMARY\"][\"default_values\"][\"bell_icons\"]"
+  },
+  {
+    "key": "notification_center",
+    "value": "yes",
+    "location": "[\"client-triggers\"][\"9\"][\"REMINDER_OF_UPCOMING_APPOINTMENTS_WEEK_SUMMARY\"][\"default_values\"][\"notification_center\"]"
+  },
+  {
+    "key": "repeat_cycle_if_completed",
+    "value": "none",
+    "location": "[\"client-triggers\"][\"9\"][\"REMINDER_OF_UPCOMING_APPOINTMENTS_WEEK_SUMMARY\"][\"default_values\"][\"repeat_cycle_if_completed\"]"
+  },
+  {
+    "key": "is_active",
+    "value": "no",
+    "location": "[\"client-triggers\"][\"9\"][\"REMINDER_OF_UPCOMING_APPOINTMENTS_WEEK_SUMMARY\"][\"default_values\"][\"is_active\"]"
+  },
+  {
+    "key": "delay",
+    "value": "30 days from last appointment",
+    "location": "[\"client-triggers\"][\"10\"][\"WHEN_30_DAYS_FROM_LAST_BOOKING_AND_NO_REBOOK_RECORDED\"][\"delay\"]"
+  },
+  {
+    "key": "channels",
+    "value": "KC  ",
+    "location": "[\"client-triggers\"][\"10\"][\"WHEN_30_DAYS_FROM_LAST_BOOKING_AND_NO_REBOOK_RECORDED\"][\"channels\"]"
+  },
+  {
+    "key": "message",
+    "value": "You don’t have a next appointment scheduled withyour regular pros.{{link}} to get back on the calendar.",
+    "location": "[\"client-triggers\"][\"10\"][\"WHEN_30_DAYS_FROM_LAST_BOOKING_AND_NO_REBOOK_RECORDED\"][\"message\"]"
+  },
+  {
+    "key": "bell_icons",
+    "value": "no",
+    "location": "[\"client-triggers\"][\"10\"][\"WHEN_30_DAYS_FROM_LAST_BOOKING_AND_NO_REBOOK_RECORDED\"][\"default_values\"][\"bell_icons\"]"
+  },
+  {
+    "key": "notification_center",
+    "value": "no",
+    "location": "[\"client-triggers\"][\"10\"][\"WHEN_30_DAYS_FROM_LAST_BOOKING_AND_NO_REBOOK_RECORDED\"][\"default_values\"][\"notification_center\"]"
+  },
+  {
+    "key": "repeat_cycle_if_completed",
+    "value": "none",
+    "location": "[\"client-triggers\"][\"10\"][\"WHEN_30_DAYS_FROM_LAST_BOOKING_AND_NO_REBOOK_RECORDED\"][\"default_values\"][\"repeat_cycle_if_completed\"]"
+  },
+  {
+    "key": "is_active",
+    "value": "no",
+    "location": "[\"client-triggers\"][\"10\"][\"WHEN_30_DAYS_FROM_LAST_BOOKING_AND_NO_REBOOK_RECORDED\"][\"default_values\"][\"is_active\"]"
+  },
+  {
+    "key": "delay",
+    "value": "immediately",
+    "location": "[\"client-triggers\"][\"11\"][\"PUSHED_FROM_PROVIDER\"][\"delay\"]"
+  },
+  {
+    "key": "channels",
+    "value": "KC",
+    "location": "[\"client-triggers\"][\"11\"][\"PUSHED_FROM_PROVIDER\"][\"channels\"]"
+  },
+  {
+    "key": "message",
+    "value": "Your trusted Pro would like to get you back on the calendar for another appointment. {{link}} to see their schedule?",
+    "location": "[\"client-triggers\"][\"11\"][\"PUSHED_FROM_PROVIDER\"][\"message\"]"
+  },
+  {
+    "key": "bell_icons",
+    "value": "yes",
+    "location": "[\"client-triggers\"][\"11\"][\"PUSHED_FROM_PROVIDER\"][\"default_values\"][\"bell_icons\"]"
+  },
+  {
+    "key": "notification_center",
+    "value": "yes",
+    "location": "[\"client-triggers\"][\"11\"][\"PUSHED_FROM_PROVIDER\"][\"default_values\"][\"notification_center\"]"
+  },
+  {
+    "key": "repeat_cycle_if_completed",
+    "value": "none",
+    "location": "[\"client-triggers\"][\"11\"][\"PUSHED_FROM_PROVIDER\"][\"default_values\"][\"repeat_cycle_if_completed\"]"
+  },
+  {
+    "key": "is_active",
+    "value": "no",
+    "location": "[\"client-triggers\"][\"11\"][\"PUSHED_FROM_PROVIDER\"][\"default_values\"][\"is_active\"]"
+  },
+  {
+    "key": "delay",
+    "value": "immediately",
+    "location": "[\"client-triggers\"][\"12\"][\"COMPRESSED_CONTENT_REACHES_SET_LIMIT\"][\"delay\"]"
+  },
+  {
+    "key": "channels",
+    "value": "KC",
+    "location": "[\"client-triggers\"][\"12\"][\"COMPRESSED_CONTENT_REACHES_SET_LIMIT\"][\"channels\"]"
+  },
+  {
+    "key": "message",
+    "value": "You have amazing content but we are running out of room.   For {{price}} month we can triple your content album.",
+    "location": "[\"client-triggers\"][\"12\"][\"COMPRESSED_CONTENT_REACHES_SET_LIMIT\"][\"message\"]"
+  },
+  {
+    "key": "bell_icons",
+    "value": "yes",
+    "location": "[\"client-triggers\"][\"12\"][\"COMPRESSED_CONTENT_REACHES_SET_LIMIT\"][\"default_values\"][\"bell_icons\"]"
+  },
+  {
+    "key": "notification_center",
+    "value": "yes",
+    "location": "[\"client-triggers\"][\"12\"][\"COMPRESSED_CONTENT_REACHES_SET_LIMIT\"][\"default_values\"][\"notification_center\"]"
+  },
+  {
+    "key": "repeat_cycle_if_completed",
+    "value": "none",
+    "location": "[\"client-triggers\"][\"12\"][\"COMPRESSED_CONTENT_REACHES_SET_LIMIT\"][\"default_values\"][\"repeat_cycle_if_completed\"]"
+  },
+  {
+    "key": "is_active",
+    "value": "no",
+    "location": "[\"client-triggers\"][\"12\"][\"COMPRESSED_CONTENT_REACHES_SET_LIMIT\"][\"default_values\"][\"is_active\"]"
+  },
+  {
+    "key": "delay",
+    "value": "immediately",
+    "location": "[\"client-triggers\"][\"13\"][\"TRUSTED_MEMBER_CONNECTION_POSTS_CONTENT\"][\"delay\"]"
+  },
+  {
+    "key": "channels",
+    "value": "KC",
+    "location": "[\"client-triggers\"][\"13\"][\"TRUSTED_MEMBER_CONNECTION_POSTS_CONTENT\"][\"channels\"]"
+  },
+  {
+    "key": "message",
+    "value": "{{member}} Shared image from last appointment with {{provider}} {{link}}",
+    "location": "[\"client-triggers\"][\"13\"][\"TRUSTED_MEMBER_CONNECTION_POSTS_CONTENT\"][\"message\"]"
+  },
+  {
+    "key": "bell_icons",
+    "value": "yes",
+    "location": "[\"client-triggers\"][\"13\"][\"TRUSTED_MEMBER_CONNECTION_POSTS_CONTENT\"][\"default_values\"][\"bell_icons\"]"
+  },
+  {
+    "key": "notification_center",
+    "value": "yes",
+    "location": "[\"client-triggers\"][\"13\"][\"TRUSTED_MEMBER_CONNECTION_POSTS_CONTENT\"][\"default_values\"][\"notification_center\"]"
+  },
+  {
+    "key": "repeat_cycle_if_completed",
+    "value": "none",
+    "location": "[\"client-triggers\"][\"13\"][\"TRUSTED_MEMBER_CONNECTION_POSTS_CONTENT\"][\"default_values\"][\"repeat_cycle_if_completed\"]"
+  },
+  {
+    "key": "is_active",
+    "value": "no",
+    "location": "[\"client-triggers\"][\"13\"][\"TRUSTED_MEMBER_CONNECTION_POSTS_CONTENT\"][\"default_values\"][\"is_active\"]"
+  },
+  {
+    "key": "delay",
+    "value": "immediately",
+    "location": "[\"client-triggers\"][\"14\"][\"TRUSTED_PRO_POST_CONTENT\"][\"delay\"]"
+  },
+  {
+    "key": "channels",
+    "value": "KC",
+    "location": "[\"client-triggers\"][\"14\"][\"TRUSTED_PRO_POST_CONTENT\"][\"channels\"]"
+  },
+  {
+    "key": "message",
+    "value": "{{provider}} Shared image from lastest appointment with (PRO) {{link}}",
+    "location": "[\"client-triggers\"][\"14\"][\"TRUSTED_PRO_POST_CONTENT\"][\"message\"]"
+  },
+  {
+    "key": "bell_icons",
+    "value": "yes",
+    "location": "[\"client-triggers\"][\"14\"][\"TRUSTED_PRO_POST_CONTENT\"][\"default_values\"][\"bell_icons\"]"
+  },
+  {
+    "key": "notification_center",
+    "value": "yes",
+    "location": "[\"client-triggers\"][\"14\"][\"TRUSTED_PRO_POST_CONTENT\"][\"default_values\"][\"notification_center\"]"
+  },
+  {
+    "key": "repeat_cycle_if_completed",
+    "value": "none",
+    "location": "[\"client-triggers\"][\"14\"][\"TRUSTED_PRO_POST_CONTENT\"][\"default_values\"][\"repeat_cycle_if_completed\"]"
+  },
+  {
+    "key": "is_active",
+    "value": "no",
+    "location": "[\"client-triggers\"][\"14\"][\"TRUSTED_PRO_POST_CONTENT\"][\"default_values\"][\"is_active\"]"
+  },
+  {
+    "key": "delay",
+    "value": "immediately",
+    "location": "[\"client-triggers\"][\"15\"][\"PRO_SEND_INVITES_MEMBER_NOT_SIGNED_UP\"][\"delay\"]"
+  },
+  {
+    "key": "channels",
+    "value": "sms",
+    "location": "[\"client-triggers\"][\"15\"][\"PRO_SEND_INVITES_MEMBER_NOT_SIGNED_UP\"][\"channels\"]"
+  },
+  {
+    "key": "message",
+    "value": "Your trusted pro {{provider}} has invited you into the new exciting platform Kazzah. Join the movement to see a new way to find, book, pay, and manage your 21st century lifestyle.",
+    "location": "[\"client-triggers\"][\"15\"][\"PRO_SEND_INVITES_MEMBER_NOT_SIGNED_UP\"][\"message\"]"
+  },
+  {
+    "key": "bell_icons",
+    "value": "yes",
+    "location": "[\"client-triggers\"][\"15\"][\"PRO_SEND_INVITES_MEMBER_NOT_SIGNED_UP\"][\"default_values\"][\"bell_icons\"]"
+  },
+  {
+    "key": "notification_center",
+    "value": "yes",
+    "location": "[\"client-triggers\"][\"15\"][\"PRO_SEND_INVITES_MEMBER_NOT_SIGNED_UP\"][\"default_values\"][\"notification_center\"]"
+  },
+  {
+    "key": "repeat_cycle_if_completed",
+    "value": "24H(2)",
+    "location": "[\"client-triggers\"][\"15\"][\"PRO_SEND_INVITES_MEMBER_NOT_SIGNED_UP\"][\"default_values\"][\"repeat_cycle_if_completed\"]"
+  },
+  {
+    "key": "is_active",
+    "value": "no",
+    "location": "[\"client-triggers\"][\"15\"][\"PRO_SEND_INVITES_MEMBER_NOT_SIGNED_UP\"][\"default_values\"][\"is_active\"]"
+  },
+  {
+    "key": "delay",
+    "value": "immediately",
+    "location": "[\"client-triggers\"][\"16\"][\"PRO_SEND_INVITES_MEMBER_SIGNED_UP\"][\"delay\"]"
+  },
+  {
+    "key": "channels",
+    "value": "KC",
+    "location": "[\"client-triggers\"][\"16\"][\"PRO_SEND_INVITES_MEMBER_SIGNED_UP\"][\"channels\"]"
+  },
+  {
+    "key": "message",
+    "value": "Your trusted pro {{provider}} would like to join your dashboard.",
+    "location": "[\"client-triggers\"][\"16\"][\"PRO_SEND_INVITES_MEMBER_SIGNED_UP\"][\"message\"]"
+  },
+  {
+    "key": "bell_icons",
+    "value": "yes",
+    "location": "[\"client-triggers\"][\"16\"][\"PRO_SEND_INVITES_MEMBER_SIGNED_UP\"][\"default_values\"][\"bell_icons\"]"
+  },
+  {
+    "key": "notification_center",
+    "value": "yes",
+    "location": "[\"client-triggers\"][\"16\"][\"PRO_SEND_INVITES_MEMBER_SIGNED_UP\"][\"default_values\"][\"notification_center\"]"
+  },
+  {
+    "key": "repeat_cycle_if_completed",
+    "value": "24H(2)",
+    "location": "[\"client-triggers\"][\"16\"][\"PRO_SEND_INVITES_MEMBER_SIGNED_UP\"][\"default_values\"][\"repeat_cycle_if_completed\"]"
+  },
+  {
+    "key": "is_active",
+    "value": "no",
+    "location": "[\"client-triggers\"][\"16\"][\"PRO_SEND_INVITES_MEMBER_SIGNED_UP\"][\"default_values\"][\"is_active\"]"
+  },
+  {
+    "key": "delay",
+    "value": "immediately",
+    "location": "[\"client-triggers\"][\"17\"][\"MEMBER_INVITES_FRIEND_NOT_SIGNED_UP\"][\"delay\"]"
+  },
+  {
+    "key": "channels",
+    "value": "sms",
+    "location": "[\"client-triggers\"][\"17\"][\"MEMBER_INVITES_FRIEND_NOT_SIGNED_UP\"][\"channels\"]"
+  },
+  {
+    "key": "message",
+    "value": "Your friend {{member}} invited you into the Kazzah Network.  {{link}} to join and discover the power of Kazzah.",
+    "location": "[\"client-triggers\"][\"17\"][\"MEMBER_INVITES_FRIEND_NOT_SIGNED_UP\"][\"message\"]"
+  },
+  {
+    "key": "bell_icons",
+    "value": "yes",
+    "location": "[\"client-triggers\"][\"17\"][\"MEMBER_INVITES_FRIEND_NOT_SIGNED_UP\"][\"default_values\"][\"bell_icons\"]"
+  },
+  {
+    "key": "notification_center",
+    "value": "yes",
+    "location": "[\"client-triggers\"][\"17\"][\"MEMBER_INVITES_FRIEND_NOT_SIGNED_UP\"][\"default_values\"][\"notification_center\"]"
+  },
+  {
+    "key": "repeat_cycle_if_completed",
+    "value": "24H(2)",
+    "location": "[\"client-triggers\"][\"17\"][\"MEMBER_INVITES_FRIEND_NOT_SIGNED_UP\"][\"default_values\"][\"repeat_cycle_if_completed\"]"
+  },
+  {
+    "key": "is_active",
+    "value": "no",
+    "location": "[\"client-triggers\"][\"17\"][\"MEMBER_INVITES_FRIEND_NOT_SIGNED_UP\"][\"default_values\"][\"is_active\"]"
+  },
+  {
+    "key": "delay",
+    "value": "immediately",
+    "location": "[\"client-triggers\"][\"18\"][\"MEMBER_INVITES_FRIEND_MEMBER_SIGNED_UP\"][\"delay\"]"
+  },
+  {
+    "key": "channels",
+    "value": "KC",
+    "location": "[\"client-triggers\"][\"18\"][\"MEMBER_INVITES_FRIEND_MEMBER_SIGNED_UP\"][\"channels\"]"
+  },
+  {
+    "key": "message",
+    "value": "Your friend {{member}} invited you into the Kazzah Network. {{link}}",
+    "location": "[\"client-triggers\"][\"18\"][\"MEMBER_INVITES_FRIEND_MEMBER_SIGNED_UP\"][\"message\"]"
+  },
+  {
+    "key": "bell_icons",
+    "value": "yes",
+    "location": "[\"client-triggers\"][\"18\"][\"MEMBER_INVITES_FRIEND_MEMBER_SIGNED_UP\"][\"default_values\"][\"bell_icons\"]"
+  },
+  {
+    "key": "notification_center",
+    "value": "yes",
+    "location": "[\"client-triggers\"][\"18\"][\"MEMBER_INVITES_FRIEND_MEMBER_SIGNED_UP\"][\"default_values\"][\"notification_center\"]"
+  },
+  {
+    "key": "repeat_cycle_if_completed",
+    "value": "24H(1)",
+    "location": "[\"client-triggers\"][\"18\"][\"MEMBER_INVITES_FRIEND_MEMBER_SIGNED_UP\"][\"default_values\"][\"repeat_cycle_if_completed\"]"
+  },
+  {
+    "key": "is_active",
+    "value": "no",
+    "location": "[\"client-triggers\"][\"18\"][\"MEMBER_INVITES_FRIEND_MEMBER_SIGNED_UP\"][\"default_values\"][\"is_active\"]"
+  },
+  {
+    "key": "delay",
+    "value": "immediately",
+    "location": "[\"client-triggers\"][\"19\"][\"MEMBER_SHARES_PRO_WITH_MEMBER_NOT_SIGNED_UP\"][\"delay\"]"
+  },
+  {
+    "key": "channels",
+    "value": "sms",
+    "location": "[\"client-triggers\"][\"19\"][\"MEMBER_SHARES_PRO_WITH_MEMBER_NOT_SIGNED_UP\"][\"channels\"]"
+  },
+  {
+    "key": "message",
+    "value": "Your Friend {{member}} shared their pro with you. {{link}} to join and discover the full power of kazzah",
+    "location": "[\"client-triggers\"][\"19\"][\"MEMBER_SHARES_PRO_WITH_MEMBER_NOT_SIGNED_UP\"][\"message\"]"
+  },
+  {
+    "key": "bell_icons",
+    "value": "yes",
+    "location": "[\"client-triggers\"][\"19\"][\"MEMBER_SHARES_PRO_WITH_MEMBER_NOT_SIGNED_UP\"][\"default_values\"][\"bell_icons\"]"
+  },
+  {
+    "key": "notification_center",
+    "value": "yes",
+    "location": "[\"client-triggers\"][\"19\"][\"MEMBER_SHARES_PRO_WITH_MEMBER_NOT_SIGNED_UP\"][\"default_values\"][\"notification_center\"]"
+  },
+  {
+    "key": "repeat_cycle_if_completed",
+    "value": "no",
+    "location": "[\"client-triggers\"][\"19\"][\"MEMBER_SHARES_PRO_WITH_MEMBER_NOT_SIGNED_UP\"][\"default_values\"][\"repeat_cycle_if_completed\"]"
+  },
+  {
+    "key": "is_active",
+    "value": "no",
+    "location": "[\"client-triggers\"][\"19\"][\"MEMBER_SHARES_PRO_WITH_MEMBER_NOT_SIGNED_UP\"][\"default_values\"][\"is_active\"]"
+  },
+  {
+    "key": "delay",
+    "value": "immediately",
+    "location": "[\"client-triggers\"][\"20\"][\"MEMBER_SHARES_PRO_WITH_MEMBER_SIGNED_UP\"][\"delay\"]"
+  },
+  {
+    "key": "channels",
+    "value": "KC",
+    "location": "[\"client-triggers\"][\"20\"][\"MEMBER_SHARES_PRO_WITH_MEMBER_SIGNED_UP\"][\"channels\"]"
+  },
+  {
+    "key": "message",
+    "value": "Your Friend {{member}} shared their pro with you.",
+    "location": "[\"client-triggers\"][\"20\"][\"MEMBER_SHARES_PRO_WITH_MEMBER_SIGNED_UP\"][\"message\"]"
+  },
+  {
+    "key": "bell_icons",
+    "value": "yes",
+    "location": "[\"client-triggers\"][\"20\"][\"MEMBER_SHARES_PRO_WITH_MEMBER_SIGNED_UP\"][\"default_values\"][\"bell_icons\"]"
+  },
+  {
+    "key": "notification_center",
+    "value": "yes",
+    "location": "[\"client-triggers\"][\"20\"][\"MEMBER_SHARES_PRO_WITH_MEMBER_SIGNED_UP\"][\"default_values\"][\"notification_center\"]"
+  },
+  {
+    "key": "repeat_cycle_if_completed",
+    "value": "no",
+    "location": "[\"client-triggers\"][\"20\"][\"MEMBER_SHARES_PRO_WITH_MEMBER_SIGNED_UP\"][\"default_values\"][\"repeat_cycle_if_completed\"]"
+  },
+  {
+    "key": "is_active",
+    "value": "no",
+    "location": "[\"client-triggers\"][\"20\"][\"MEMBER_SHARES_PRO_WITH_MEMBER_SIGNED_UP\"][\"default_values\"][\"is_active\"]"
+  },
+  {
+    "key": "delay",
+    "value": "immediately",
+    "location": "[\"client-triggers\"][\"21\"][\"MEMBER_SHARES_CHANNEL_WITH_MEMBER_NOT_SIGNED_UP\"][\"delay\"]"
+  },
+  {
+    "key": "channels",
+    "value": "sms",
+    "location": "[\"client-triggers\"][\"21\"][\"MEMBER_SHARES_CHANNEL_WITH_MEMBER_NOT_SIGNED_UP\"][\"channels\"]"
+  },
+  {
+    "key": "message",
+    "value": "Your Friend {{member}} shared their Channel with you. {{link}} to join and discover the full power of kazzah",
+    "location": "[\"client-triggers\"][\"21\"][\"MEMBER_SHARES_CHANNEL_WITH_MEMBER_NOT_SIGNED_UP\"][\"message\"]"
+  },
+  {
+    "key": "bell_icons",
+    "value": "yes",
+    "location": "[\"client-triggers\"][\"21\"][\"MEMBER_SHARES_CHANNEL_WITH_MEMBER_NOT_SIGNED_UP\"][\"default_values\"][\"bell_icons\"]"
+  },
+  {
+    "key": "notification_center",
+    "value": "yes",
+    "location": "[\"client-triggers\"][\"21\"][\"MEMBER_SHARES_CHANNEL_WITH_MEMBER_NOT_SIGNED_UP\"][\"default_values\"][\"notification_center\"]"
+  },
+  {
+    "key": "repeat_cycle_if_completed",
+    "value": "no",
+    "location": "[\"client-triggers\"][\"21\"][\"MEMBER_SHARES_CHANNEL_WITH_MEMBER_NOT_SIGNED_UP\"][\"default_values\"][\"repeat_cycle_if_completed\"]"
+  },
+  {
+    "key": "is_active",
+    "value": "no",
+    "location": "[\"client-triggers\"][\"21\"][\"MEMBER_SHARES_CHANNEL_WITH_MEMBER_NOT_SIGNED_UP\"][\"default_values\"][\"is_active\"]"
+  },
+  {
+    "key": "delay",
+    "value": "immediately",
+    "location": "[\"client-triggers\"][\"22\"][\"MEMBER_SHARES_CHANNEL_WITH_MEMBER_SIGNED_UP\"][\"delay\"]"
+  },
+  {
+    "key": "channels",
+    "value": "KC",
+    "location": "[\"client-triggers\"][\"22\"][\"MEMBER_SHARES_CHANNEL_WITH_MEMBER_SIGNED_UP\"][\"channels\"]"
+  },
+  {
+    "key": "message",
+    "value": "Your Friend {{member}} shared their Channel with you.",
+    "location": "[\"client-triggers\"][\"22\"][\"MEMBER_SHARES_CHANNEL_WITH_MEMBER_SIGNED_UP\"][\"message\"]"
+  },
+  {
+    "key": "bell_icons",
+    "value": "yes",
+    "location": "[\"client-triggers\"][\"22\"][\"MEMBER_SHARES_CHANNEL_WITH_MEMBER_SIGNED_UP\"][\"default_values\"][\"bell_icons\"]"
+  },
+  {
+    "key": "notification_center",
+    "value": "yes",
+    "location": "[\"client-triggers\"][\"22\"][\"MEMBER_SHARES_CHANNEL_WITH_MEMBER_SIGNED_UP\"][\"default_values\"][\"notification_center\"]"
+  },
+  {
+    "key": "repeat_cycle_if_completed",
+    "value": "no",
+    "location": "[\"client-triggers\"][\"22\"][\"MEMBER_SHARES_CHANNEL_WITH_MEMBER_SIGNED_UP\"][\"default_values\"][\"repeat_cycle_if_completed\"]"
+  },
+  {
+    "key": "is_active",
+    "value": "no",
+    "location": "[\"client-triggers\"][\"22\"][\"MEMBER_SHARES_CHANNEL_WITH_MEMBER_SIGNED_UP\"][\"default_values\"][\"is_active\"]"
+  },
+  {
+    "key": "delay",
+    "value": "immediately",
+    "location": "[\"client-triggers\"][\"23\"][\"PRO_PUSHES_MESSAGE_PRODUCT\"][\"delay\"]"
+  },
+  {
+    "key": "channels",
+    "value": "KC",
+    "location": "[\"client-triggers\"][\"23\"][\"PRO_PUSHES_MESSAGE_PRODUCT\"][\"channels\"]"
+  },
+  {
+    "key": "message",
+    "value": "Your trusted pro is offering a special for clients only. Check out her latest promo {{link}}",
+    "location": "[\"client-triggers\"][\"23\"][\"PRO_PUSHES_MESSAGE_PRODUCT\"][\"message\"]"
+  },
+  {
+    "key": "bell_icons",
+    "value": "yes",
+    "location": "[\"client-triggers\"][\"23\"][\"PRO_PUSHES_MESSAGE_PRODUCT\"][\"default_values\"][\"bell_icons\"]"
+  },
+  {
+    "key": "notification_center",
+    "value": "yes",
+    "location": "[\"client-triggers\"][\"23\"][\"PRO_PUSHES_MESSAGE_PRODUCT\"][\"default_values\"][\"notification_center\"]"
+  },
+  {
+    "key": "repeat_cycle_if_completed",
+    "value": "no",
+    "location": "[\"client-triggers\"][\"23\"][\"PRO_PUSHES_MESSAGE_PRODUCT\"][\"default_values\"][\"repeat_cycle_if_completed\"]"
+  },
+  {
+    "key": "is_active",
+    "value": "no",
+    "location": "[\"client-triggers\"][\"23\"][\"PRO_PUSHES_MESSAGE_PRODUCT\"][\"default_values\"][\"is_active\"]"
+  },
+  {
+    "key": "delay",
+    "value": "immediately",
+    "location": "[\"client-triggers\"][\"24\"][\"PRO_PUSHES_MESSAGE_SERVICE\"][\"delay\"]"
+  },
+  {
+    "key": "channels",
+    "value": "KC",
+    "location": "[\"client-triggers\"][\"24\"][\"PRO_PUSHES_MESSAGE_SERVICE\"][\"channels\"]"
+  },
+  {
+    "key": "message",
+    "value": "Your trusted pro is offering a special for clients only. Check out her latest promo {{link}}",
+    "location": "[\"client-triggers\"][\"24\"][\"PRO_PUSHES_MESSAGE_SERVICE\"][\"message\"]"
+  },
+  {
+    "key": "bell_icons",
+    "value": "yes",
+    "location": "[\"client-triggers\"][\"24\"][\"PRO_PUSHES_MESSAGE_SERVICE\"][\"default_values\"][\"bell_icons\"]"
+  },
+  {
+    "key": "notification_center",
+    "value": "yes",
+    "location": "[\"client-triggers\"][\"24\"][\"PRO_PUSHES_MESSAGE_SERVICE\"][\"default_values\"][\"notification_center\"]"
+  },
+  {
+    "key": "repeat_cycle_if_completed",
+    "value": "no",
+    "location": "[\"client-triggers\"][\"24\"][\"PRO_PUSHES_MESSAGE_SERVICE\"][\"default_values\"][\"repeat_cycle_if_completed\"]"
+  },
+  {
+    "key": "is_active",
+    "value": "no",
+    "location": "[\"client-triggers\"][\"24\"][\"PRO_PUSHES_MESSAGE_SERVICE\"][\"default_values\"][\"is_active\"]"
+  },
+  {
+    "key": "delay",
+    "value": "immediately",
+    "location": "[\"client-triggers\"][\"25\"][\"PAYMENT_REMINDER\"][\"delay\"]"
+  },
+  {
+    "key": "channels",
+    "value": "KC",
+    "location": "[\"client-triggers\"][\"25\"][\"PAYMENT_REMINDER\"][\"channels\"]"
+  },
+  {
+    "key": "message",
+    "value": "Please complete payment to {{name}} for your appointment on {{date}}. ",
+    "location": "[\"client-triggers\"][\"25\"][\"PAYMENT_REMINDER\"][\"message\"]"
+  },
+  {
+    "key": "bell_icons",
+    "value": "yes",
+    "location": "[\"client-triggers\"][\"25\"][\"PAYMENT_REMINDER\"][\"default_values\"][\"bell_icons\"]"
+  },
+  {
+    "key": "notification_center",
+    "value": "yes",
+    "location": "[\"client-triggers\"][\"25\"][\"PAYMENT_REMINDER\"][\"default_values\"][\"notification_center\"]"
+  },
+  {
+    "key": "repeat_cycle_if_completed",
+    "value": "no",
+    "location": "[\"client-triggers\"][\"25\"][\"PAYMENT_REMINDER\"][\"default_values\"][\"repeat_cycle_if_completed\"]"
+  },
+  {
+    "key": "is_active",
+    "value": "no",
+    "location": "[\"client-triggers\"][\"25\"][\"PAYMENT_REMINDER\"][\"default_values\"][\"is_active\"]"
+  },
+  {
+    "key": "delay",
+    "value": "immediately",
+    "location": "[\"client-triggers\"][\"26\"][\"PROVIDER_SEND_REBOOK_REMINDER\"][\"delay\"]"
+  },
+  {
+    "key": "channels",
+    "value": "KC",
+    "location": "[\"client-triggers\"][\"26\"][\"PROVIDER_SEND_REBOOK_REMINDER\"][\"channels\"]"
+  },
+  {
+    "key": "message",
+    "value": "{{name}} has rebooked you for next appointment on {{date}}",
+    "location": "[\"client-triggers\"][\"26\"][\"PROVIDER_SEND_REBOOK_REMINDER\"][\"message\"]"
+  },
+  {
+    "key": "bell_icons",
+    "value": "no",
+    "location": "[\"client-triggers\"][\"26\"][\"PROVIDER_SEND_REBOOK_REMINDER\"][\"default_values\"][\"bell_icons\"]"
+  },
+  {
+    "key": "notification_center",
+    "value": "yes",
+    "location": "[\"client-triggers\"][\"26\"][\"PROVIDER_SEND_REBOOK_REMINDER\"][\"default_values\"][\"notification_center\"]"
+  },
+  {
+    "key": "repeat_cycle_if_completed",
+    "value": "none",
+    "location": "[\"client-triggers\"][\"26\"][\"PROVIDER_SEND_REBOOK_REMINDER\"][\"default_values\"][\"repeat_cycle_if_completed\"]"
+  },
+  {
+    "key": "is_active",
+    "value": "no",
+    "location": "[\"client-triggers\"][\"26\"][\"PROVIDER_SEND_REBOOK_REMINDER\"][\"default_values\"][\"is_active\"]"
+  },
+  {
+    "key": "delay",
+    "value": "immediately",
+    "location": "[\"client-triggers\"][\"27\"][\"APPOINTMENT_TIME_COMPLETE\"][\"delay\"]"
+  },
+  {
+    "key": "channels",
+    "value": "KC",
+    "location": "[\"client-triggers\"][\"27\"][\"APPOINTMENT_TIME_COMPLETE\"][\"channels\"]"
+  },
+  {
+    "key": "message",
+    "value": "{{pro_name}} appointment with {{member_name}} is complete now, please check out and take photos",
+    "location": "[\"client-triggers\"][\"27\"][\"APPOINTMENT_TIME_COMPLETE\"][\"message\"]"
+  },
+  {
+    "key": "bell_icons",
+    "value": "no",
+    "location": "[\"client-triggers\"][\"27\"][\"APPOINTMENT_TIME_COMPLETE\"][\"default_values\"][\"bell_icons\"]"
+  },
+  {
+    "key": "notification_center",
+    "value": "yes",
+    "location": "[\"client-triggers\"][\"27\"][\"APPOINTMENT_TIME_COMPLETE\"][\"default_values\"][\"notification_center\"]"
+  },
+  {
+    "key": "repeat_cycle_if_completed",
+    "value": "none",
+    "location": "[\"client-triggers\"][\"27\"][\"APPOINTMENT_TIME_COMPLETE\"][\"default_values\"][\"repeat_cycle_if_completed\"]"
+  },
+  {
+    "key": "is_active",
+    "value": "no",
+    "location": "[\"client-triggers\"][\"27\"][\"APPOINTMENT_TIME_COMPLETE\"][\"default_values\"][\"is_active\"]"
+  },
+  {
+    "key": "delay",
+    "value": "immediately",
+    "location": "[\"provider-triggers\"][\"0\"][\"APPOINTMENT_REQUEST_FROM_MEMBER\"][\"delay\"]"
+  },
+  {
+    "key": "channels",
+    "value": "KC",
+    "location": "[\"provider-triggers\"][\"0\"][\"APPOINTMENT_REQUEST_FROM_MEMBER\"][\"channels\"]"
+  },
+  {
+    "key": "message",
+    "value": "{{name}} has requested an appointment on {{date}}, please review and confirm",
+    "location": "[\"provider-triggers\"][\"0\"][\"APPOINTMENT_REQUEST_FROM_MEMBER\"][\"message\"]"
+  },
+  {
+    "key": "bell_icons",
+    "value": "no",
+    "location": "[\"provider-triggers\"][\"0\"][\"APPOINTMENT_REQUEST_FROM_MEMBER\"][\"default_values\"][\"bell_icons\"]"
+  },
+  {
+    "key": "notification_center",
+    "value": "yes",
+    "location": "[\"provider-triggers\"][\"0\"][\"APPOINTMENT_REQUEST_FROM_MEMBER\"][\"default_values\"][\"notification_center\"]"
+  },
+  {
+    "key": "repeat_cycle_if_completed",
+    "value": "none",
+    "location": "[\"provider-triggers\"][\"0\"][\"APPOINTMENT_REQUEST_FROM_MEMBER\"][\"default_values\"][\"repeat_cycle_if_completed\"]"
+  },
+  {
+    "key": "is_active",
+    "value": "no",
+    "location": "[\"provider-triggers\"][\"0\"][\"APPOINTMENT_REQUEST_FROM_MEMBER\"][\"default_values\"][\"is_active\"]"
+  },
+  {
+    "key": "delay",
+    "value": "immediately",
+    "location": "[\"provider-triggers\"][\"1\"][\"MEMBER_ADD_PRO_AS_CONNECTION\"][\"delay\"]"
+  },
+  {
+    "key": "channels",
+    "value": "KC",
+    "location": "[\"provider-triggers\"][\"1\"][\"MEMBER_ADD_PRO_AS_CONNECTION\"][\"channels\"]"
+  },
+  {
+    "key": "message",
+    "value": "{{name}} has added you to his Kazzah connections",
+    "location": "[\"provider-triggers\"][\"1\"][\"MEMBER_ADD_PRO_AS_CONNECTION\"][\"message\"]"
+  },
+  {
+    "key": "bell_icons",
+    "value": "no",
+    "location": "[\"provider-triggers\"][\"1\"][\"MEMBER_ADD_PRO_AS_CONNECTION\"][\"default_values\"][\"bell_icons\"]"
+  },
+  {
+    "key": "notification_center",
+    "value": "yes",
+    "location": "[\"provider-triggers\"][\"1\"][\"MEMBER_ADD_PRO_AS_CONNECTION\"][\"default_values\"][\"notification_center\"]"
+  },
+  {
+    "key": "repeat_cycle_if_completed",
+    "value": "none",
+    "location": "[\"provider-triggers\"][\"1\"][\"MEMBER_ADD_PRO_AS_CONNECTION\"][\"default_values\"][\"repeat_cycle_if_completed\"]"
+  },
+  {
+    "key": "is_active",
+    "value": "no",
+    "location": "[\"provider-triggers\"][\"1\"][\"MEMBER_ADD_PRO_AS_CONNECTION\"][\"default_values\"][\"is_active\"]"
+  },
+  {
+    "key": "delay",
+    "value": "immediately",
+    "location": "[\"provider-triggers\"][\"2\"][\"MEMBER_SENT_A_CHAT_MESSAGE_TO_PRO\"][\"delay\"]"
+  },
+  {
+    "key": "channels",
+    "value": "KC",
+    "location": "[\"provider-triggers\"][\"2\"][\"MEMBER_SENT_A_CHAT_MESSAGE_TO_PRO\"][\"channels\"]"
+  },
+  {
+    "key": "message",
+    "value": "You have a new message from {{name}}",
+    "location": "[\"provider-triggers\"][\"2\"][\"MEMBER_SENT_A_CHAT_MESSAGE_TO_PRO\"][\"message\"]"
+  },
+  {
+    "key": "bell_icons",
+    "value": "no",
+    "location": "[\"provider-triggers\"][\"2\"][\"MEMBER_SENT_A_CHAT_MESSAGE_TO_PRO\"][\"default_values\"][\"bell_icons\"]"
+  },
+  {
+    "key": "notification_center",
+    "value": "yes",
+    "location": "[\"provider-triggers\"][\"2\"][\"MEMBER_SENT_A_CHAT_MESSAGE_TO_PRO\"][\"default_values\"][\"notification_center\"]"
+  },
+  {
+    "key": "repeat_cycle_if_completed",
+    "value": "none",
+    "location": "[\"provider-triggers\"][\"2\"][\"MEMBER_SENT_A_CHAT_MESSAGE_TO_PRO\"][\"default_values\"][\"repeat_cycle_if_completed\"]"
+  },
+  {
+    "key": "is_active",
+    "value": "no",
+    "location": "[\"provider-triggers\"][\"2\"][\"MEMBER_SENT_A_CHAT_MESSAGE_TO_PRO\"][\"default_values\"][\"is_active\"]"
+  },
+  {
+    "key": "delay",
+    "value": "immediately",
+    "location": "[\"provider-triggers\"][\"3\"][\"APPOINTMENT_TIME_COMPLETE\"][\"delay\"]"
+  },
+  {
+    "key": "channels",
+    "value": "KC",
+    "location": "[\"provider-triggers\"][\"3\"][\"APPOINTMENT_TIME_COMPLETE\"][\"channels\"]"
+  },
+  {
+    "key": "message",
+    "value": "{{pro_name}} appointment with {{member_name}} is complete now, please check out and take photos",
+    "location": "[\"provider-triggers\"][\"3\"][\"APPOINTMENT_TIME_COMPLETE\"][\"message\"]"
+  },
+  {
+    "key": "bell_icons",
+    "value": "no",
+    "location": "[\"provider-triggers\"][\"3\"][\"APPOINTMENT_TIME_COMPLETE\"][\"default_values\"][\"bell_icons\"]"
+  },
+  {
+    "key": "notification_center",
+    "value": "yes",
+    "location": "[\"provider-triggers\"][\"3\"][\"APPOINTMENT_TIME_COMPLETE\"][\"default_values\"][\"notification_center\"]"
+  },
+  {
+    "key": "repeat_cycle_if_completed",
+    "value": "none",
+    "location": "[\"provider-triggers\"][\"3\"][\"APPOINTMENT_TIME_COMPLETE\"][\"default_values\"][\"repeat_cycle_if_completed\"]"
+  },
+  {
+    "key": "is_active",
+    "value": "no",
+    "location": "[\"provider-triggers\"][\"3\"][\"APPOINTMENT_TIME_COMPLETE\"][\"default_values\"][\"is_active\"]"
+  },
+  {
+    "key": "delay",
+    "value": "immediately",
+    "location": "[\"provider-triggers\"][\"4\"][\"CASH_PAYMENT_CONFIRMATION\"][\"delay\"]"
+  },
+  {
+    "key": "channels",
+    "value": "KC",
+    "location": "[\"provider-triggers\"][\"4\"][\"CASH_PAYMENT_CONFIRMATION\"][\"channels\"]"
+  },
+  {
+    "key": "message",
+    "value": "{{member_name}} has paid in cash for appointment on {{date}}, Please receive payment in cash and confirm",
+    "location": "[\"provider-triggers\"][\"4\"][\"CASH_PAYMENT_CONFIRMATION\"][\"message\"]"
+  },
+  {
+    "key": "bell_icons",
+    "value": "no",
+    "location": "[\"provider-triggers\"][\"4\"][\"CASH_PAYMENT_CONFIRMATION\"][\"default_values\"][\"bell_icons\"]"
+  },
+  {
+    "key": "notification_center",
+    "value": "yes",
+    "location": "[\"provider-triggers\"][\"4\"][\"CASH_PAYMENT_CONFIRMATION\"][\"default_values\"][\"notification_center\"]"
+  },
+  {
+    "key": "repeat_cycle_if_completed",
+    "value": "none",
+    "location": "[\"provider-triggers\"][\"4\"][\"CASH_PAYMENT_CONFIRMATION\"][\"default_values\"][\"repeat_cycle_if_completed\"]"
+  },
+  {
+    "key": "is_active",
+    "value": "no",
+    "location": "[\"provider-triggers\"][\"4\"][\"CASH_PAYMENT_CONFIRMATION\"][\"default_values\"][\"is_active\"]"
+  }
+]
